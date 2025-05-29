@@ -1,0 +1,80 @@
+/* === GENEL YAPI === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+/* === BUTONLAR === */
+.btn-nav {
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+/* === BAŞLIK KUTULARI === */
+.welcome-box,
+.header-box,
+.form-box {
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-box h2,
+.header-box h2,
+.form-box h3 {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* === TABLO === */
+.table th {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.floor-header {
+  background-color: #d1ecf1;
+  font-weight: bold;
+}
+
+/* === DURUM ROZETLERİ === */
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+/* === FORM ÖZEL STİLLERİ === */
+.form-box {
+  max-width: 600px;
+  margin: 80px auto;
+}
+
+.form-box input,
+.form-box select {
+  border-radius: 8px;
+}
